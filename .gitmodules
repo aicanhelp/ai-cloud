@@ -1,0 +1,6 @@
+[submodule "resources/kubesphere"]
+	path = resources/kubesphere
+	url = https://github.com/kubesphere/kubesphere.git
+[submodule "resources/rainbond"]
+	path = resources/rainbond
+	url = https://github.com/goodrain/rainbond.git
