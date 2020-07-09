@@ -4,3 +4,6 @@
 [submodule "resources/rainbond"]
 	path = resources/rainbond
 	url = https://github.com/goodrain/rainbond.git
+[submodule "resources/monitor-cat"]
+	path = resources/monitor-cat
+	url = https://github.com/dianping/cat.git
