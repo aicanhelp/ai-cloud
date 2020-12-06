@@ -7,3 +7,9 @@
 [submodule "resources/monitor-cat"]
 	path = resources/monitor-cat
 	url = https://github.com/dianping/cat.git
+[submodule "resources/kubesphere-console"]
+	path = resources/kubesphere-console
+	url = https://github.com/kubesphere/console.git
+[submodule "resources/telepresence"]
+	path = resources/telepresence
+	url = https://github.com/telepresenceio/telepresence.git
