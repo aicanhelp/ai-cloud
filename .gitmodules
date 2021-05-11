@@ -13,3 +13,6 @@
 [submodule "resources/telepresence"]
 	path = resources/telepresence
 	url = https://github.com/telepresenceio/telepresence.git
+[submodule "resources/microk8s"]
+	path = resources/microk8s
+	url = https://github.com/ubuntu/microk8s.git
