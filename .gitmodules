@@ -16,3 +16,6 @@
 [submodule "resources/microk8s"]
 	path = resources/microk8s
 	url = https://github.com/ubuntu/microk8s.git
+[submodule "resources/ceph"]
+	path = resources/ceph
+	url = https://github.com/ceph/ceph.git
