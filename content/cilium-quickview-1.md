@@ -70,13 +70,13 @@ IPVS 针对报文做 DNAT 后，将连接信息保存在 nf_conntrack 中，ipta
 
 1. 高度可扩展的 kubernetes CNI 插件，支持大规模，高动态的 k8s 集群环境。支持多种租网模式:
 
-1. `Overlay` 模式，支持 Vxlan 及 Geneve
+2. `Overlay` 模式，支持 Vxlan 及 Geneve
 
-2. `Unerlay` 模式，通过 Direct Routing （直接路由）的方式，通过 Linux 宿主机的路由表进行转发
+3. `Unerlay` 模式，通过 Direct Routing （直接路由）的方式，通过 Linux 宿主机的路由表进行转发
 
-3. kube-proxy 替代品，实现了 四层负载均衡功能。LB 基于 eBPF 实现，使用高效的、可无限扩容的哈希表来存储信息。对于南北向负载均衡，Cilium 作了最大化性能的优化。支持 XDP、DSR（Direct Server Return，LB 仅仅修改转发封包的目标 MAC 地址）
+4. kube-proxy 替代品，实现了 四层负载均衡功能。LB 基于 eBPF 实现，使用高效的、可无限扩容的哈希表来存储信息。对于南北向负载均衡，Cilium 作了最大化性能的优化。支持 XDP、DSR（Direct Server Return，LB 仅仅修改转发封包的目标 MAC 地址）
 
-4. 多集群的连通性，Cilium Cluster Mesh 支持多集群间的负载，可观测性以及安全管控
+5. 多集群的连通性，Cilium Cluster Mesh 支持多集群间的负载，可观测性以及安全管控
 
 二、可观测性
 

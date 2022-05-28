@@ -19,3 +19,6 @@
 [submodule "resources/ceph"]
 	path = resources/ceph
 	url = https://github.com/ceph/ceph.git
+[submodule "resources/redhat-helm-charts"]
+	path = resources/redhat-helm-charts
+	url = https://github.com/redhat-developer/redhat-helm-charts.git
