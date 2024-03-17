@@ -28,3 +28,12 @@
 [submodule "resources/ceph-cookbook"]
 	path = resources/ceph-cookbook
 	url = https://github.com/ksingh7/ceph-cookbook.git
+[submodule "resources/spring-cloud-kubernetes"]
+	path = resources/spring-cloud-kubernetes
+	url = https://github.com/spring-cloud/spring-cloud-kubernetes.git
+[submodule "resources/fabric8-k8s-client"]
+	path = resources/fabric8-k8s-client
+	url = https://github.com/fabric8io/kubernetes-client.git
+[submodule "resources/java-operator-sdk"]
+	path = resources/java-operator-sdk
+	url = https://github.com/java-operator-sdk/java-operator-sdk.git
