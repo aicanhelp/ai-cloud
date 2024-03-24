@@ -37,3 +37,6 @@
 [submodule "resources/java-operator-sdk"]
 	path = resources/java-operator-sdk
 	url = https://github.com/java-operator-sdk/java-operator-sdk.git
+[submodule "resources/istio"]
+	path = resources/istio
+	url = https://github.com/istio/istio.git
