@@ -40,3 +40,18 @@
 [submodule "resources/istio"]
 	path = resources/istio
 	url = https://github.com/istio/istio.git
+[submodule "resources/apisix"]
+	path = resources/apisix
+	url = https://github.com/apache/apisix.git
+[submodule "resources/kong"]
+	path = resources/kong
+	url = https://github.com/Kong/kong.git
+[submodule "resources/rclone"]
+	path = resources/rclone
+	url = https://github.com/rclone/rclone.git
+[submodule "resources/rclone-webui-react"]
+	path = resources/rclone-webui-react
+	url = https://github.com/rclone/rclone-webui-react.git
+[submodule "resources/dhorse"]
+	path = resources/dhorse
+	url = https://gitee.com/i512team/dhorse.git
