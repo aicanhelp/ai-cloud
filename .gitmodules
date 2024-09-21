@@ -55,3 +55,6 @@
 [submodule "resources/dhorse"]
 	path = resources/dhorse
 	url = https://gitee.com/i512team/dhorse.git
+[submodule "resources/x-file-storage"]
+	path = resources/x-file-storage
+	url = https://github.com/dromara/x-file-storage.git
