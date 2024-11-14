@@ -58,3 +58,15 @@
 [submodule "resources/x-file-storage"]
 	path = resources/x-file-storage
 	url = https://github.com/dromara/x-file-storage.git
+[submodule "resources/docker-registry"]
+	path = resources/docker-registry
+	url = https://github.com/distribution/distribution.git
+[submodule "resources/docker-cli"]
+	path = resources/docker-cli
+	url = https://github.com/docker/cli.git
+[submodule "resources/docker-moby"]
+	path = resources/docker-moby
+	url = https://github.com/moby/moby.git
+[submodule "resources/kustomize"]
+	path = resources/kustomize
+	url = https://github.com/kubernetes-sigs/kustomize.git
