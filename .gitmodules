@@ -70,3 +70,9 @@
 [submodule "resources/kustomize"]
 	path = resources/kustomize
 	url = https://github.com/kubernetes-sigs/kustomize.git
+[submodule "resources/bitnami-charts"]
+	path = resources/bitnami-charts
+	url = https://github.com/bitnami/charts.git
+[submodule "resources/rclone-webui-angular"]
+	path = resources/rclone-webui-angular
+	url = https://github.com/yuudi/rclone-webui-angular.git
