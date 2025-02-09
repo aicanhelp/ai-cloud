@@ -21,7 +21,7 @@
 	url = https://github.com/ceph/ceph.git
 [submodule "resources/redhat-helm-charts"]
 	path = resources/redhat-helm-charts
-	url = git@github.com:aicanhelp/redhat-helm-charts.git
+	url = https://github.com/redhat-developer/redhat-helm-charts.git
 [submodule "resources/datahub-helm"]
 	path = resources/datahub-helm
 	url = https://github.com/acryldata/datahub-helm.git
