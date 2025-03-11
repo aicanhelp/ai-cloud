@@ -76,3 +76,21 @@
 [submodule "resources/rclone-webui-angular"]
 	path = resources/rclone-webui-angular
 	url = https://github.com/yuudi/rclone-webui-angular.git
+[submodule "resources/prometheus-charts"]
+	path = resources/prometheus-charts
+	url = https://github.com/prometheus-community/helm-charts.git
+[submodule "resources/ansible-for-develops"]
+	path = resources/ansible-for-develops
+	url = https://github.com/geerlingguy/ansible-for-devops.git
+[submodule "resources/ansible-example"]
+	path = resources/ansible-example
+	url = https://github.com/ansible/ansible-examples.git
+[submodule "resources/ansible-for-kubernetes"]
+	path = resources/ansible-for-kubernetes
+	url = https://github.com/geerlingguy/ansible-for-kubernetes.git
+[submodule "resources/ansible"]
+	path = resources/ansible
+	url = https://github.com/ansible/ansible.git
+[submodule "resources/bitnami-containers"]
+	path = resources/bitnami-containers
+	url = https://github.com/bitnami/containers.git
