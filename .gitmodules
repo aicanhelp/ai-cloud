@@ -94,3 +94,6 @@
 [submodule "resources/bitnami-containers"]
 	path = resources/bitnami-containers
 	url = https://github.com/bitnami/containers.git
+[submodule "resources/zadig"]
+	path = resources/zadig
+	url = https://github.com/koderover/zadig.git
