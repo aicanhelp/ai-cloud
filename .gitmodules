@@ -97,3 +97,33 @@
 [submodule "resources/zadig"]
 	path = resources/zadig
 	url = https://github.com/koderover/zadig.git
+[submodule "resources/prometheus-docker-compose"]
+	path = resources/prometheus-docker-compose
+	url = https://github.com/vegasbrianc/prometheus.git
+[submodule "resources/kubespray"]
+	path = resources/kubespray
+	url = https://github.com/kubernetes-sigs/kubespray.git
+[submodule "resources/k0sctl"]
+	path = resources/k0sctl
+	url = https://github.com/k0sproject/k0sctl.git
+[submodule "resources/k0s"]
+	path = resources/k0s
+	url = https://github.com/k0sproject/k0s.git
+[submodule "resources/bootloose"]
+	path = resources/bootloose
+	url = https://github.com/k0sproject/bootloose.git
+[submodule "resources/rig"]
+	path = resources/rig
+	url = https://github.com/k0sproject/rig.git
+[submodule "resources/keda/keda"]
+	path = resources/keda/keda
+	url = https://github.com/kedacore/keda.git
+[submodule "resources/k3s/k3s"]
+	path = resources/k3s/k3s
+	url = https://github.com/k3s-io/k3s.git
+[submodule "resources/k3s/k3d"]
+	path = resources/k3s/k3d
+	url = https://github.com/k3d-io/k3d.git
+[submodule "resources/nfs-subdir"]
+	path = resources/nfs-subdir
+	url = https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner.git
