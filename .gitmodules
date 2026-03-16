@@ -127,3 +127,12 @@
 [submodule "resources/nfs-subdir"]
 	path = resources/nfs-subdir
 	url = https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner.git
+[submodule "resources/seaweedfs"]
+	path = resources/seaweedfs
+	url = https://github.com/seaweedfs/seaweedfs.git
+[submodule "resources/juicefs"]
+	path = resources/juicefs
+	url = https://github.com/juicedata/juicefs.git
+[submodule "resources/tidb-operator"]
+	path = resources/tidb-operator
+	url = https://github.com/pingcap/tidb-operator.git

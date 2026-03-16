@@ -6,6 +6,9 @@ cd ${BASE_DIR} && trap 'echo && cd ${CUR_DIR};exit' 0 1 2 15
 DOWNLOADS_URL="https://downloads.bitnami.com/files/stacksmith"
 DOWNLOADED_DIR="/edata/bitnami"
 
+
+PACKAGES_LIST=($(ls -d ${BASE_DIR}/containers/* | sed 's/.*-//'))
+
 LATEST_PACKAGE_FILE="${BASE_DIR}/package.latest"
 CURRENT_PACKAGE_FILE="${BASE_DIR}/packages.conf"
 DELTA_PACKAGE_FILE="${BASE_DIR}/packages.delta"
@@ -38,13 +41,16 @@ function __download_file(){
       rm -f  "${_l_remote_file}" "${_l_remote_file}.sha256"
    fi 
 
-   wget -P ${DOWNLOADED_DIR} "${_l_remote_file}"
+   # wget -P ${DOWNLOADED_DIR} "${_l_remote_file}"
+   axel -n 8  -o "${DOWNLOADED_DIR}/${_l_file_name}" "${_l_remote_file}"
    wget -P ${DOWNLOADED_DIR} "${_l_remote_file}.sha256"
 }
 
-function __download(){
-   local _l_package_file=$1
-   ! test -f ${_l_package_file} && echo "Not found: ${_l_package_file}" && exit 1 
+function download(){
+   local _l_package_file="packages-${MODE}.conf"
+   if ! test -f ${_l_package_file}; then
+      grep -r '\-linux-${OS_ARCH}\-' --include="Dockerfile" ${BITNAMI_DIR}|sed 's/.*: *"//'|sed 's/".*//'|sort|uniq > ${_l_package_file}
+   fi
    while read -r line; do
       [[ -z "$line" || "$line" =~ ^[[:space:]]*# ]] && continue
    
@@ -55,15 +61,6 @@ function __download(){
    done < "${_l_package_file}"
 }
 
-function download_base(){
-   __download "${CURRENT_PACKAGE_FILE}"
-}
+test -z "${MODE}" && echo "Please input group: ${PACKAGES_LIST[*]}" && exit 0
 
-function download_update(){
-   source ${BASE_DIR}/update.sh
-   __download "${DELTA_PACKAGE_FILE}"
-}
-
-test -z "${MODE}" && echo "Please input mode: base|update" && exit 0
-
-download_${MODE}
+download
