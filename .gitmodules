@@ -136,3 +136,15 @@
 [submodule "resources/tidb-operator"]
 	path = resources/tidb-operator
 	url = https://github.com/pingcap/tidb-operator.git
+[submodule "resources/headlamp"]
+	path = resources/headlamp
+	url = https://github.com/kubernetes-sigs/headlamp.git
+[submodule "resources/k8s-kwok"]
+	path = resources/k8s-kwok
+	url = https://github.com/kubernetes-sigs/kwok.git
+[submodule "resources/kwok-operator"]
+	path = resources/kwok-operator
+	url = https://github.com/run-ai/kwok-operator.git
+[submodule "resources/simkube"]
+	path = resources/simkube
+	url = https://github.com/acrlabs/simkube.git
