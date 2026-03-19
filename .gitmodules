@@ -148,3 +148,12 @@
 [submodule "resources/simkube"]
 	path = resources/simkube
 	url = https://github.com/acrlabs/simkube.git
+[submodule "resources/kwok-bench"]
+	path = resources/kwok-bench
+	url = https://github.com/kubescape/kwok-bench.git
+[submodule "resources/ansible-semaphore"]
+	path = resources/ansible-semaphore
+	url = https://github.com/semaphoreui/semaphore.git
+[submodule "resources/ansible-awx"]
+	path = resources/ansible-awx
+	url = https://github.com/ansible/awx.git
