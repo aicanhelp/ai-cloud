@@ -2073,7 +2073,7 @@ kubectl:
   ##
   image:
     registry: docker.io
-    repository: bitnami/kubectl
+    repository: soldevelo/kubectl
     tag: 1.33.4-debian-12-r0
     digest: ""
     ## Specify a imagePullPolicy

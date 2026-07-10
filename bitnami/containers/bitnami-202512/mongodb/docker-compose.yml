@@ -3,7 +3,7 @@
 
 services:
   mongodb:
-    image: docker.io/bitnami/mongodb:8.2
+    image: docker.io/soldevelo/mongodb:8.2
     ports:
       - "27017:27017"
     volumes:

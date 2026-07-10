@@ -3,7 +3,7 @@
 
 services:
   postgresql:
-    image: docker.io/bitnami/postgresql:18
+    image: docker.io/soldevelo/postgresql:18
     ports:
       - '5432:5432'
     volumes:
